@@ -90,7 +90,7 @@ next_btn.onclick = ()=>{
     }
 }
 prev_btn.onclick = ()=>{
-    if(que_count < questions.length - 1){
+    if(que_count < questions.length){
         que_count--; 
         que_numb--; 
         showQuetions(que_count); 
